@@ -1,3 +1,3 @@
-# Damian Kowalczyk goit-markup-hw-06
+# Damian Kowalczyk goit-markup-hw-07
 
-https://damianxk.github.io/goit-markup-hw-06/
+https://damianxk.github.io/goit-markup-hw-07/
