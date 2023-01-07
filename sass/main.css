@@ -64,7 +64,11 @@ img {
   align-items: center;
 }
 
-.index__title {
+.social-icon-svg {
+  --color3: currentColor;
+}
+
+.section__title {
   font-size: 36px;
   font-weight: 700;
   color: var(--black-text);
@@ -83,11 +87,8 @@ img {
   color: var(--black-text);
 }
 
-.advantages__title {
-  color: var(--black-text);
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  margin-bottom: 10px;
+.logo {
+  color: var(--blue-color);
 }
 
 .header {
@@ -97,12 +98,10 @@ img {
   width: 1600px;
   padding: 24px 0 25px 0;
 }
-
 .header__section {
   display: flex;
   align-items: center;
 }
-
 .header__logo {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
@@ -111,24 +110,17 @@ img {
   line-height: 1.17;
   font-weight: 700;
 }
-
-.logo {
-  color: var(--blue-color);
-}
-
 .header__nav {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 .header__list {
   margin-left: 93px;
   display: flex;
   gap: 46px;
 }
-
 .header__link {
   font-weight: 500;
   color: var(--black-text);
@@ -140,13 +132,11 @@ img {
 .header__link:hover, .header__link:focus {
   color: var(--blue-color);
 }
-
 .header__list--contact {
   margin-right: 27px;
   display: flex;
   gap: 30px;
 }
-
 .header__link--contact {
   display: flex;
   align-items: center;
@@ -159,7 +149,6 @@ img {
 .header__link--contact:hover, .header__link--contact:focus {
   color: var(--blue-color);
 }
-
 .header__icon {
   margin-right: 10px;
   --color5: currentColor;
@@ -186,7 +175,6 @@ img {
   text-align: center;
   padding: 200px 0;
 }
-
 .hero__title {
   letter-spacing: 2.5px;
   color: var(--white-color);
@@ -196,7 +184,6 @@ img {
   letter-spacing: 0.06em;
   margin: 0;
 }
-
 .hero__btn {
   border: 0;
   padding: 10px 42px 10px 41px;
@@ -226,18 +213,15 @@ img {
   color: var(--grey-color);
   padding-bottom: 0;
 }
-
 .advantages__list {
   display: flex;
 }
-
 .advantages__item {
   width: 270px;
   margin-left: 30px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-
 .advantages__container {
   width: 270px;
   background-color: #f5f4fa;
@@ -248,26 +232,28 @@ img {
   align-items: center;
   justify-content: center;
 }
+.advantages__title {
+  color: var(--black-text);
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
 
 .work {
   background-color: var(--white-color);
   text-align: center;
 }
-
 .work__list {
   margin-left: 30px;
   gap: 30px;
   display: flex;
 }
-
 .work__item {
   position: relative;
 }
-
 .work__image {
   display: block;
 }
-
 .work__overlay {
   position: absolute;
   bottom: 0;
@@ -290,28 +276,23 @@ img {
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
-
 .team__list {
   display: flex;
   margin-left: 30px;
   gap: 30px;
 }
-
 .team__item {
   width: 270px;
 }
-
 .team__figure {
   width: 270px;
   background-color: var(--white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
 .team__info {
   padding: 30px 0;
 }
-
 .team__list--social {
   width: 206px;
   margin: 0 auto;
@@ -319,7 +300,6 @@ img {
   gap: 10px;
   margin-top: 16px;
 }
-
 .team__icon {
   display: block;
   padding: 12px;
@@ -334,20 +314,14 @@ img {
   background-color: var(--blue-color);
 }
 
-.social-icon-svg {
-  --color3: currentColor;
-}
-
 .clients {
   background-color: var(--white-color);
 }
-
 .clients__list {
   margin-left: 30px;
   display: flex;
   gap: 30px;
 }
-
 .clients__link {
   --color3: currentColor;
   color: #afb1b8;
@@ -371,7 +345,6 @@ img {
   width: 1600px;
   padding: 60px 0;
 }
-
 .footer__logo {
   font-family: "Raleway";
   font-size: 26px;
@@ -380,25 +353,20 @@ img {
   line-height: 1.19;
   font-weight: 700;
 }
-
 .footer__content {
   padding-right: 10px;
   margin-left: 30px;
 }
-
 .footer__list {
   margin-top: 20px;
 }
-
 .footer__link {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color, background-color;
 }
-
 .footer__list--contact {
   color: var(--white-color);
 }
-
 .footer__link--contact {
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -407,12 +375,10 @@ img {
 .footer__link--contact:hover, .footer__link--contact:focus {
   color: var(--blue-color);
 }
-
 .footer__content--social {
   margin-left: 70px;
   margin-top: 12px;
 }
-
 .footer__title {
   font-weight: 700;
   margin: 0;
@@ -423,13 +389,11 @@ img {
   text-align: left;
   text-transform: uppercase;
 }
-
 .footer__list--social {
   width: 206px;
   display: flex;
   gap: 10px;
 }
-
 .footer__link--social {
   color: var(--white-color);
   background-color: rgba(255, 255, 255, 0.1);
@@ -442,21 +406,14 @@ img {
   color: var(--white-color);
   background-color: var(--blue-color);
 }
-
-.social-icon-svg {
-  --color3: currentColor;
-}
-
 .footer__content--newsletter {
   margin-top: 12px;
   margin-left: 78px;
 }
-
 .footer__form {
   display: flex;
   margin-top: 20px;
 }
-
 .footer__input {
   border-radius: 4px;
   width: 326px;
@@ -471,7 +428,6 @@ img {
   border: 1px solid var(--blue-color);
   outline: none;
 }
-
 .footer__btn {
   margin-left: 12px;
   font-size: 16px;
@@ -489,7 +445,6 @@ img {
   border-radius: 4px;
   font-weight: 700;
 }
-
 .footer__icon {
   margin-left: 24px;
 }
@@ -499,13 +454,11 @@ img {
   color: var(--grey-color);
   font-size: 16px;
 }
-
 .portfolio__list--btn {
   display: flex;
   gap: 8px;
   margin-left: 8px;
 }
-
 .portfolio__btn {
   background-color: #f5f4fa;
   border: 0;
@@ -525,19 +478,16 @@ img {
   color: var(--white-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
 .portfolio__main {
   margin: 0 auto;
   padding-top: 20px;
 }
-
 .portfolio__list {
   display: flex;
   flex-wrap: wrap;
   margin-left: 30px;
   justify-content: space-between;
 }
-
 .portfolio__item {
   width: 370px;
   margin-top: 30px;
@@ -551,7 +501,6 @@ img {
 .portfolio__item:hover, .portfolio__item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
 .portfolio__figure {
   width: 370px;
   display: flex;
@@ -561,12 +510,10 @@ img {
 .portfolio__figure:hover .portfolio__overlay, .portfolio__figure:focus .portfolio__overlay {
   transform: translatex(0);
 }
-
-.portfolio-photo {
+.portfolio__photo {
   position: relative;
   overflow: hidden;
 }
-
 .portfolio__overlay {
   width: 100%;
   height: 100%;
@@ -588,12 +535,10 @@ img {
 .portfolio__overlay:hover, .portfolio__overlay:focus {
   transform: translatex(0);
 }
-
 .portfolio__text {
   margin-left: 24px;
   margin-right: 45px;
 }
-
 .portfolio__title {
   letter-spacing: 0.06em;
   font-size: 18px;
@@ -602,7 +547,6 @@ img {
   margin-bottom: 4px;
   font-weight: 700;
 }
-
 .portfolio__info {
   width: 320px;
   margin: 0 auto;
@@ -622,7 +566,6 @@ img {
   transition-property: transform;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0);
 }
@@ -640,7 +583,6 @@ img {
   padding: 40px 0;
   border-radius: 4px;
 }
-
 .modal-close {
   background-color: var(--white-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -654,13 +596,6 @@ img {
   align-items: center;
   justify-content: center;
 }
-
-.is-hidden {
-  visibility: hidden;
-  pointer-events: none;
-  opacity: 0;
-}
-
 .modal__title {
   font-size: 20px;
   line-height: 23px;
@@ -670,15 +605,25 @@ img {
   margin-bottom: 12px;
   font-weight: 700px;
 }
+.modal__link {
+  color: var(--blue-color);
+  text-decoration: underline;
+}
+.modal__accept {
+  margin-left: 8px;
+  text-align: center;
+}
+.modal__container {
+  position: relative;
+}
 
-.modal__form {
+.modal-form {
   width: 448px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .modal-form__label {
   position: relative;
   margin-top: 10px;
@@ -691,7 +636,6 @@ img {
 .modal-form__label:first-child {
   margin: 0;
 }
-
 .modal-form__icon {
   position: absolute;
   bottom: 12px;
@@ -699,11 +643,6 @@ img {
   color: var(--black-text);
   transition-timing-function: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.input__container {
-  position: relative;
-}
-
 .modal-form__input {
   width: 406px;
   padding-top: 11px;
@@ -723,7 +662,6 @@ img {
 .modal-form__input:hover + .modal-form__icon, .modal-form__input:focus + .modal-form__icon {
   fill: var(--blue-color);
 }
-
 .modal-form__textarea {
   height: 94px;
   width: 414px;
@@ -741,7 +679,6 @@ img {
 .modal-form__textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-
 .modal-form__btn {
   padding: 9px 0;
   width: 200px;
@@ -756,7 +693,6 @@ img {
   border-radius: 4px;
   font-weight: 700;
 }
-
 .modal-form__check {
   margin-top: 10px;
   text-align: center;
@@ -770,9 +706,10 @@ img {
   justify-content: center;
 }
 
-.modal__link {
-  color: var(--blue-color);
-  text-decoration: underline;
+.is-hidden {
+  visibility: hidden;
+  pointer-events: none;
+  opacity: 0;
 }
 
 .check__input {
@@ -786,7 +723,6 @@ img {
   background-image: url(../images/check.svg);
   box-shadow: 0 0 0 0.1em var(--blue-color);
 }
-
 .check__box {
   position: absolute;
   left: 2px;
@@ -802,9 +738,4 @@ img {
 }
 .check__box:hover {
   box-shadow: 0 0 0 0.1em var(--blue-color);
-}
-
-.modal__accept {
-  margin-left: 8px;
-  text-align: center;
 }/*# sourceMappingURL=main.css.map */
