@@ -31,13 +31,13 @@
   justify-content: space-between;
 }
 
-.header__navigation {
+.header__list {
   margin-left: 93px;
   display: flex;
   gap: 46px;
 }
 
-.navigation__links {
+.header__link {
   font-weight: 500;
   color: var(--black-text);
   letter-spacing: 0.02em;
@@ -51,13 +51,13 @@
   }
 }
 
-.header__contact {
+.header__list--contact {
   margin-right: 27px;
   display: flex;
   gap: 30px;
 }
 
-.contact__link {
+.header__link--contact {
   display: flex;
   align-items: center;
   color: var(--grey-color);

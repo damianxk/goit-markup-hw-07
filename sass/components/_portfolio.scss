@@ -4,13 +4,7 @@
   font-size: 16px;
 }
 
-.portfolio-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.portfolio-btn__list {
+.portfolio__list--btn {
   display: flex;
   gap: 8px;
   margin-left: 8px;
@@ -39,7 +33,7 @@
   }
 }
 
-.portfolio-main {
+.portfolio__main {
   margin: 0 auto;
   padding-top: 20px;
 }
